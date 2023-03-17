@@ -46,9 +46,18 @@ function countdown2(userNum) {
         userNum = userNum - 1;
     }
 }
+// ~~~ PART 3: Strings as Arrays ~~~ //
 
-// Strings also can be iterated over
+// #1 - Strings can be iterated over
 let myString = "hey there pardner";
 for(let i = 0; i < myString.length; i++) {
     console.log(i, ": ", myString[i]);
 }
+
+// #2 - Accessing a letter of a string
+    // Log just the first "t" in "tomato"
+
+const fancyArray = [3, 4, ["tomato", "potato"], 56, 2];
+console.log(fancyArray[2][0]);  // -> This will log "tomato"
+    
+console.log(fancyArray[2][0][0]);  // -> This will log the "t"
