@@ -1,0 +1,10 @@
+.box {
+  height: 65px;
+  width: 65px;
+  background-color: #0bc9ed;
+  margin-left: 4px;
+  display: inline-block;
+}
+.purple {
+    background-color: #9c77b9;
+}
